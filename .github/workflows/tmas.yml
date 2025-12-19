@@ -13,7 +13,7 @@ jobs:
         with:
           path: juice-shop
 
-      - name: Download TMAS and Scan Repo for Open Source Vulnerabilities and Secrets
+      - name: Download TMASs and Scan Repo for Open Source Vulnerabilities and Secrets
         uses: trendmicro/tmas-scan-action@v3.0.1
         with:
           version: "2" # Recommended: pin to major version for automatic updates within v2.x.x
